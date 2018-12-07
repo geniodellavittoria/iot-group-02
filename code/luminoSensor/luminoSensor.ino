@@ -132,7 +132,7 @@ void loop(void)
   {
     /* If event.light = 0 lux the sensor is probably saturated
        and no reliable data could be generated! */
-    Serial.println("Sensor overload");
+    Serial.print("Sensor overload");
   }
   delay(2000);
 }
